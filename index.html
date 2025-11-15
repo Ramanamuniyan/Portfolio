@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ramana M — Professional Portfolio</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrap">
+    <!-- HEADER -->
+    <header>
+      <div class="brand">
+        <div class="avatar">
+          <img src="2.jpg" alt="Ramana"/>
+        </div>
+        <div class="name">
+          <h1 style="color: #ffffff;">Ramana M</h1>
+          <p style="color: #ffffff;" class="muted">B.E — Electronics & Communication Engineering (ECE)</p>
+        </div>
+      </div>
+
+      <div class="header-cta">
+        <a class="btn primary" href="ramana_resume.pdf" id="cvBtn">Download CV</a>
+        <button class="btn ghost" id="contactTop">Contact</button>
+      </div>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+      <button class="active" data-sec="about">About</button>
+      <button data-sec="skills">Skills</button>
+      <button data-sec="projects">Projects</button>
+      <button data-sec="contact">Contact</button>
+    </nav>
+
+    <div class="grid">
+      <main>
+
+        <!-- ABOUT (single, fixed) -->
+        <section id="about" class="card">
+          <div class="hero">
+
+
+            <!-- RIGHT SIDE — About content -->
+            <div class="about-text">
+
+              <h2>About</h2>
+
+              <p class="muted">
+                I am <strong>Ramana M</strong>, an Electronics and Communication Engineering graduate with a strong focus on
+                <strong>embedded systems, firmware development, and hardware-level problem solving</strong>.
+                I build IoT devices and robust hardware solutions by writing clean firmware, performing pragmatic debugging,
+                and delivering reliable prototypes.
+              </p>
+
+              <p>
+                I enjoy working close to the metal — reading datasheets, architecting MCU firmware, debugging PCBs, and creating
+                supporting host tools. I value simplicity, reliability, and low-level understanding of how hardware and software interact.
+              </p>
+
+              <div class="skills" aria-hidden>
+                <div class="skill">Embedded C</div>
+                <div class="skill">Advanced C++</div>
+                <div class="skill">FreeRTOS</div>
+                <div class="skill">ESP32</div>
+                <div class="skill">UART / SPI / I2C</div>
+                <div class="skill">PCB Debug</div>
+                <div class="skill">Linux</div>
+                <div class="skill">Git</div>
+              </div>
+
+              <h3 style="margin-top:18px">Short strengths summary</h3>
+              <ul>
+                <li>Strong in <strong>C</strong>, C++, Data Structures, algorithmic thinking</li>
+                <li>Firmware development, drivers, ISRs, RTOS basics</li>
+                <li>Embedded debugging with oscilloscope, logic analyzer</li>
+                <li>Linux system knowledge and CLI tools</li>
+                <li>Turning ideas into working prototypes quickly</li>
+              </ul>
+
+              <h3 style="margin-top:14px">Experience highlights</h3>
+              <ul>
+                <li>Developed firmware for ESP32, AVR, ARM Cortex MCUs</li>
+                <li>Worked on PCB debugging, schematic and layout reviewing</li>
+                <li>Developed sensor interfaces, serial drivers, power management</li>
+                <li>Created host-side tools and automation scripts</li>
+              </ul>
+
+              <h3 style="margin-top:14px">Selected projects</h3>
+              <ul>
+                <li>
+                  <strong><a href="https://github.com/Ramanamuniyan/Inverted-Search-using-hashtable" target="_blank">Inverted-Search-using-hashtable</a></strong>
+                  — Hash table based inverted index system.
+                </li>
+
+                <li>
+                  <strong><a href="https://github.com/Ramanamuniyan/Arbitrary-Precision-Calculator" target="_blank">Arbitrary-Precision-Calculator</a></strong>
+                  — Big integer math using doubly-linked lists.
+                </li>
+
+                <li>
+                  <strong><a href="https://github.com/Ramanamuniyan/Stegnograph" target="_blank">Image Steganography (LSB)</a></strong>
+                  — Hide/extract messages using LSB encoding.
+                </li>
+              </ul>
+
+              <h3 style="margin-top:14px">Tools & tech</h3>
+              <p class="muted">GNU toolchain, PlatformIO, VS Code, GDB, OpenOCD, JTAG, KiCad, Oscilloscope, Logic Analyzer, Git.</p>
+
+              <h3 style="margin-top:14px">Education</h3>
+              <p class="muted">B.E — Electronics & Communication Engineering (ECE)</p>
+
+              <h3 style="margin-top:14px">Career objective</h3>
+              <p>
+                Seeking embedded system projects where I can contribute firmware, hardware testing, and build reliable IoT solutions.
+              </p>
+
+            </div> <!-- about-text -->
+
+          </div> <!-- hero -->
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="card" style="display:none">
+          <h2>Skills</h2>
+          <ul>
+            <li>Advanced C</li>
+            <li>C++</li>
+            <li>Data Structures</li>
+            <li>Linux</li>
+            <li>FreeRTOS</li>
+            <li>ESP32</li>
+            <li>UART / SPI / I2C</li>
+            <li>PCB Debug</li>
+            <li>Git</li>
+          </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="card" style="display:none">
+          <h2>Projects</h2>
+
+          <div class="projects">
+
+            <div class="project">
+              <h3>Inverted-Search-using-hashtable</h3>
+              <p>Efficient text search system using hash tables and linked lists.</p>
+              <a href="https://github.com/Ramanamuniyan/Inverted-Search-using-hashtable">View Repo</a>
+            </div>
+
+            <div class="project">
+              <h3>Arbitrary-Precision-Calculator</h3>
+              <p>Big integer calculator using doubly linked lists that supports +, -, *, %, /.</p>
+              <a href="https://github.com/Ramanamuniyan/Arbitrary-Precision-Calculator">View Repo</a>
+            </div>
+
+            <div class="project">
+              <h3>Image Steganography using LSB</h3>
+              <p>Hide/extract text inside images using Least Significant Bit encoding.</p>
+              <a href="https://github.com/Ramanamuniyan/Stegnograph">View Repo</a>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="card" style="display:none">
+          <h2>Contact</h2>
+
+          <div class="contact-block">
+
+            <div class="contact-row">
+              <div class="icon-circle phone-bg">
+                <svg viewBox="0 0 24 24" class="icon">
+                  <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1C10.29 21 3 13.71 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="muted">Phone</p>
+                <p><a href="tel:+918939611653">+91 89396 11653</a></p>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="icon-circle email-bg">
+                <svg viewBox="0 0 24 24" class="icon">
+                  <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="muted">Email</p>
+                <p><a href="mailto:ramanamuniyan26@gmail.com">ramanamuniyan26@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="icon-circle github-bg">
+                <svg viewBox="0 0 24 24" class="icon">
+                  <path d="M12 .5A12 12 0 000 12.5a12 12 0 008.21 11.44c.6.11.82-.26.82-.58v-2c-3.34.73-4-1.61-4-1.61a3.15 3.15 0 00-1.34-1.76c-1.1-.75.08-.74.08-.74a2.5 2.5 0 011.82 1.22 2.55 2.55 0 003.47 1 2.57 2.57 0 01.76-1.61c-2.67-.31-5.47-1.36-5.47-6a4.64 4.64 0 011.22-3.23 4.3 4.3 0 01.12-3.18s1-.33 3.3 1.23a11.43 11.43 0 016 0c2.3-1.56 3.3-1.23 3.3-1.23a4.3 4.3 0 01.12 3.18A4.64 4.64 0 0119 12.5c0 4.66-2.8 5.68-5.48 6a2.91 2.91 0 01.82 2.29v3.4c0 .32.2.7.82.58A12 12 0 0024 12.5 12 12 0 0012 .5z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="muted">Github</p>
+                <p><a href="https://github.com/Ramanamuniyan/">github.com/Ramanamuniyan</a></p>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="icon-circle linkedin-bg">
+                <svg viewBox="0 0 24 24" class="icon">
+                  <path d="M4.98 3.5a2.5 2.5 0 11.02 0zM3 8.5h4v12H3zM9 8.5h3.8v1.6h.1c.5-.9 1.9-1.8 3.9-1.8 4.2 0 5 2.8 5 6.4V20h-4v-5.1c0-1.2 0-2.8-1.7-2.8-1.7 0-1.9 1.3-1.9 2.7V20H9z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="muted">LinkedIn</p>
+                <p><a href="https://www.linkedin.com/in/ramanam26/" target="_blank">linkedin.com/in/ramanam26</a></p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="card">
+          <h4>Quick Info</h4>
+          <div class="meta">
+            <div class="info-row"><span class="muted">Degree</span><strong>B.E — ECE</strong></div>
+            <div class="info-row"><span class="muted">Location</span><strong>India</strong></div>
+            <div class="info-row"><span class="muted">Status</span><strong>Open to projects</strong></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Skills Snapshot</h4>
+          <div class="skills" aria-hidden>
+            <div class="skill">Advanced C</div>
+            <div class="skill">Data Structure</div>
+            <div class="skill">C++</div>
+            <div class="skill">Linux</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Highlights</h4>
+          <ul>
+            <li>Hands-on prototyping</li>
+            <li>Low-level debugging</li>
+            <li>End-to-end IoT stack</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
